@@ -1,0 +1,26 @@
+{
+  "name": "mobile_adaptor_proposel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "mobile-adaptor_proposel.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "./node_modules/lite-server/bin/lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zd1010150/mobile_adaptor_proposel.git"
+  },
+  "keywords": [
+    "mobile"
+  ],
+  "author": "kiwizhang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zd1010150/mobile_adaptor_proposel/issues"
+  },
+  "homepage": "https://github.com/zd1010150/mobile_adaptor_proposel#readme",
+  "devDependencies": {
+     "lite-server": "^2.2.2"
+  }
+}

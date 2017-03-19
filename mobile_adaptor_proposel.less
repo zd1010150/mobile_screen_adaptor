@@ -1,0 +1,11 @@
+@base : 75;
+
+.px2rem(@name,@value){
+    @{name} : @value / @base * 1rem;
+}
+.height(@value){
+    .px2rem(height,@value);
+}
+.width(@value){
+    .px2rem(width,@value);
+}
