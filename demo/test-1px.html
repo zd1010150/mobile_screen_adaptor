@@ -1,15 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
     <style>
-        .pxborder{
-            border-bottom: 1px solid red;
-        }
+    .pxborder {
+        border-bottom: 1px solid red;
+    }
     </style>
+    <link rel="stylesheet/less" type="text/css" href="demo1.less">
+    <script src="../lib/less.min.js"></script>
 </head>
+
 <body>
+    <div class="item">
+        <ul>
+            <li class="pic"><img src="../images/blue-xiaoxin.jpg" alt=""></li>
+            <li class="pic"><img src="../images/white-xiaoxin.png" alt=""></li>
+            <li class="pic"><img src="../images/blue-xiaoxin.jpg" alt=""></li>
+            <li class="pic"><img src="../images/white-xiaoxin.png" alt=""></li>
+            <li class="pic"><img src="../images/blue-xiaoxin.jpg" alt=""></li>
+            <li class="pic"><img src="../images/white-xiaoxin.png" alt=""></li>
+            <li class="pic"><img src="../images/blue-xiaoxin.jpg" alt=""></li>
+            <li class="pic"><img src="../images/white-xiaoxin.png" alt=""></li>
+            <li class="pic"><img src="../images/blue-xiaoxin.jpg" alt=""></li>
+            <li class="pic"><img src="../images/white-xiaoxin.png" alt=""></li>
+        </ul>
+    </div>
     <div class="pxborder">dddd</div>
+    <div class="info">
+    </div>
+    <script>
+    document.querySelector(".info").innerHTML = window.screen.width + "&nbsp;" + window.devicePixelRatio;
+    </script>
 </body>
+
 </html>
