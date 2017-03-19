@@ -14,7 +14,7 @@
             head.insertBefore(metaEl, head.firstChild);
         }
         dpr = window.devicePixelRatio || 1;
-        rem = docEl.clientWidth * dpr / 10;
+        rem = window.screen.width * dpr / 10;
         scale = 1 / dpr;
 
 
