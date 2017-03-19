@@ -19,7 +19,7 @@
 
 
         // 设置viewport，进行缩放，达到高清效果
-        metaEl.setAttribute('content', 'width=' + dpr * docEl.clientWidth + ',initial-scale=' + scale + ',maximum-scale=' + scale + ', minimum-scale=' + scale + ',user-scalable=no');
+        metaEl.setAttribute('content', 'width=' + dpr * window.screen.width + ',initial-scale=' + scale + ',maximum-scale=' + scale + ', minimum-scale=' + scale + ',user-scalable=no');
 
         // 设置data-dpr属性，留作的css hack之用
         docEl.setAttribute('data-dpr', dpr);
